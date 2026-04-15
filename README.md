@@ -1,26 +1,26 @@
 # ml-boston-housing-analysis
 
-Projeto de estudo em machine learning aplicado ao conjunto de dados Boston Housing. O objetivo e explorar um fluxo basico de analise tabular para entender variaveis habitacionais e preparar experimentos de regressao.
+Projeto de estudo em machine learning aplicado ao conjunto de dados Boston Housing. O objetivo é explorar um fluxo básico de análise tabular para entender variáveis habitacionais e preparar experimentos de regressão.
 
-## Conteudo
+## Conteúdo
 
-- `boston_housing_analysis.ipynb`: notebook principal de analise e modelagem.
+- `boston_housing_analysis.ipynb`: notebook principal de análise e modelagem.
 - `housing.csv`: base tabular usada no estudo.
-- `.gitignore`: exclusoes de cache, ambiente virtual e artefatos locais.
+- `.gitignore`: exclusões de cache, ambiente virtual e artefatos locais.
 
 ## Objetivo do Estudo
 
-Este repositorio demonstra um fluxo introdutorio para problemas supervisionados de regressao:
+Este repositório demonstra um fluxo introdutório para problemas supervisionados de regressão:
 
-- carregamento e inspecao de dados tabulares;
-- analise exploratoria de variaveis;
-- preparacao de features;
-- treino e avaliacao de modelos preditivos;
-- registro do raciocinio em notebook.
+- carregamento e inspeção de dados tabulares;
+- análise exploratória de variáveis;
+- preparação de features;
+- treino e avaliação de modelos preditivos;
+- registro do raciocínio em notebook.
 
 ## Base de Dados
 
-A base `housing.csv` contem variaveis habitacionais e socioeconomicas usadas para estimar valores relacionados a moradias. O dataset foi mantido no repositorio por ser pequeno e necessario para reproduzir o notebook.
+A base `housing.csv` contém variáveis habitacionais e socioeconômicas usadas para estimar valores relacionados a moradias. O dataset foi mantido no repositório por ser pequeno e necessário para reproduzir o notebook.
 
 ## Como Executar
 
@@ -34,4 +34,4 @@ jupyter notebook boston_housing_analysis.ipynb
 
 ## Cuidados
 
-O repositorio tem finalidade educacional. Antes de usar os resultados em qualquer contexto real, revise premissas, metricas, vieses do dataset e adequacao do modelo.
+O repositório tem finalidade educacional. Antes de usar os resultados em qualquer contexto real, revise premissas, métricas, vieses do dataset e adequação do modelo.
