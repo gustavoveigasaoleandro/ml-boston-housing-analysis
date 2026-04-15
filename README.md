@@ -1,33 +1,37 @@
-# Boston Housing Dataset
+# ml-boston-housing-analysis
 
-Projeto acadêmico com análise exploratória e manipulação do conjunto de dados Boston Housing em notebook Jupyter.
+Projeto de estudo em machine learning aplicado ao conjunto de dados Boston Housing. O objetivo e explorar um fluxo basico de analise tabular para entender variaveis habitacionais e preparar experimentos de regressao.
 
-## Conteúdo
+## Conteudo
 
-- `boston_housing_analysis.ipynb`: notebook principal do exercício.
-- `housing.csv`: base de dados usada pelo notebook.
+- `boston_housing_analysis.ipynb`: notebook principal de analise e modelagem.
+- `housing.csv`: base tabular usada no estudo.
+- `.gitignore`: exclusoes de cache, ambiente virtual e artefatos locais.
 
-## Objetivo
+## Objetivo do Estudo
 
-Explorar o dataset Boston Housing, entender suas variáveis e executar o fluxo analítico solicitado na atividade.
+Este repositorio demonstra um fluxo introdutorio para problemas supervisionados de regressao:
 
-## Requisitos
+- carregamento e inspecao de dados tabulares;
+- analise exploratoria de variaveis;
+- preparacao de features;
+- treino e avaliacao de modelos preditivos;
+- registro do raciocinio em notebook.
 
-- Python 3.10+
-- Jupyter Notebook ou JupyterLab
-- `numpy`
-- `pandas`
+## Base de Dados
 
-## Como executar
+A base `housing.csv` contem variaveis habitacionais e socioeconomicas usadas para estimar valores relacionados a moradias. O dataset foi mantido no repositorio por ser pequeno e necessario para reproduzir o notebook.
+
+## Como Executar
+
+1. Crie e ative um ambiente Python.
+2. Instale as bibliotecas usadas no notebook, como `pandas`, `numpy`, `matplotlib`, `seaborn` e `scikit-learn`.
+3. Abra o notebook:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install jupyter numpy pandas
 jupyter notebook boston_housing_analysis.ipynb
 ```
 
-## Observações
+## Cuidados
 
-- O notebook espera encontrar o arquivo `housing.csv` no mesmo diretório.
-- O dataset contém 14 colunas clássicas do problema de regressão de preços de imóveis em Boston.
+O repositorio tem finalidade educacional. Antes de usar os resultados em qualquer contexto real, revise premissas, metricas, vieses do dataset e adequacao do modelo.
